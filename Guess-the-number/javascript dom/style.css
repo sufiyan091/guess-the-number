@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: linear-gradient(rgb(128, 23, 0),rgb(29, 29, 214));
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.box{
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-color: #3AAAFA;
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 650px;
+}
+.input input{
+    padding: 20px 0px;
+    font-weight: bold;
+    color: limegreen;
+    text-align: center;
+    font-size: 20px;
+}
+.checkbutton{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    transition: 2s linear ease-in-out;
+}
+.checkbutton:hover{
+    transform: scale(1.05);
+}
+.guessnum-box{
+    text-align: center;
+}
+.num-box{
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    padding: 30px;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 120px;
+    border: 5px solid yellow;
+    margin: 0 auto;
+}   
